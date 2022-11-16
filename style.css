@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    box-sizing: border-box;
+   
+
+
+}
+
+
+section
+{
+    background: #F7F4F0;
+}
+
+
+
+header
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav
+{
+    position: relative;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav .logo
+{
+    text-decoration: none;
+    text-transform: capitalize ;
+    font-size: 40px;
+    color: #9f00fc;
+    
+}
+
+
+nav ul
+{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    display: inline-block;
+    margin: 30px;
+    text-transform: capitalize;
+    color: #3A3943;
+    transition: 0.2s;
+    padding: 10px;
+    border-radius: 15px;
+     font-size: 20px;
+}
+
+
+
+nav ul li a:hover
+{
+    background:  #272061;
+    
+    color: #fff;
+    
+
+    
+}
+
+
+
+.content
+{
+    position: relative;
+    text-align: center;
+    text-transform: capitalize ;
+    color: #272061;
+    font-size: 50px;
+    
+    margin-top: 60px;
+}
+
+.image-bk
+{
+    position: relative;
+    display: flex;
+    width: 100vh;
+    height: 100vh;
+    margin-left: 20rem;
+}
+
+
+.btn
+{
+    font-size: 25px;
+    position: relative;
+    border-radius: 30px;
+    color: #3A3943;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px;
+    margin-bottom: 5rem;
+}
+
+
+.btn:hover
+{
+    background: #3A3943;
+    color: #F7F4F0;
+}
+
+/* page  2*/
+ 
+.prod
+{
+    position: relative;
+    background-color: #fff;
+   
+}
+
+.prod-text h2
+{
+    text-align: center;
+    font-size: 50px;
+    margin: 5rem;
+    color: #3A3943;
+}
+
+.prod-text p
+{
+    font-size: 30px;
+    height: 50px;
+    text-align: left;
+    padding-top: 3rem;
+}
+
+.prod-img
+{
+    position: relative;
+    display: flex;
+    width: 70vh;
+    height: 70vh;
+    margin-left: 50rem;
+    padding-bottom: 3rem;
+    
+
+}
+
+.about
+{
+    position: relative;
+    background-color: #3A3943;
+   
+}
+
+
+.about-text h2
+{
+    text-align: center;
+    font-size: 50px;
+    margin: 5rem;
+    color: #f7f7f7;
+}
+
+.about-text p
+{
+    font-size: 30px;
+    height: 50px;
+    text-align: left;
+    padding-top: 3rem;
+    color: #fff;
+}
+
+
+.about-img
+{
+    position: relative;
+    display: flex;
+    width: 70vh;
+    height: 70vh;
+    margin-left: 50rem;
+    padding-bottom: 3rem;
+
+}
+
+
+.contact
+{
+    position: relative;
+    background-color: #ffffff;
+   
+}
+
+
+.contact-text h2
+{
+    text-align: center;
+    font-size: 50px;
+    margin: 5rem;
+    color: #3A3943;
+}
+
+.contact-text p
+{
+    font-size: 30px;
+    height: 50px;
+    text-align: left;
+    padding-top: 3rem;
+    color: #3A3943;
+}
+
+
+.contact-img
+{
+    position: relative;
+    display: flex;
+    width: 70vh;
+    height: 70vh;
+    margin-left: 50rem;
+    padding-bottom: 3rem;
+
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #3A3943;
+    color: #fff;
+    font-size: 20px;
+  }
+
+  footer a
+  {
+    text-decoration: none;
+    color: #fff;
+    
+  }
+ 
+/*responsive*/
+
